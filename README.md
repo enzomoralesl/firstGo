@@ -1,0 +1,2 @@
+# firstGo
+Learning GoLang
