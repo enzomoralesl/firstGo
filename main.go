@@ -56,7 +56,7 @@ func pow(x, y, limit float64) float64 {
 }
 
 // Newton math for approximate square root
-func Sqrt(x float64) float64 {
+func sqrt(x float64) float64 {
 	var z float64 = 1
 	for c := 1; c <= 7; c++ {
 		z -= (z*z - x) / (2 * z)
